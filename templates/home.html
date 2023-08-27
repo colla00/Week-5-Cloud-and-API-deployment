@@ -1,0 +1,25 @@
+<html>
+    <body bgcolor=#B2BEB5>
+
+        <center>
+
+        <h1> Pima Indians Diabetes Prediction </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Preg :  <input type="text", name='a', placeholder="Enter value for Preg "> <br><br>
+            Plas :  <input type="text", name='b', placeholder="Enter value for Plas"> <br><br>
+            Pres :  <input type="text", name='c', placeholder="Enter value for Pres"> <br><br>
+            Skin : <input type="text", name='d', placeholder="Enter value for Skin"> <br><br>
+            Test : <input type="text", name='e', placeholder="Enter value for Test"> <br><br>
+            Mass : <input type="text", name='f', placeholder="Enter value for Mass"> <br><br>
+            Pedi : <input type="text", name='g', placeholder="Enter value for Pedi"> <br><br>
+            Age : <input type="text", name='h', placeholder="Enter value for Age"> <br><br><br></b>
+            <input type="submit" , value='Predict Cases of Diabetes' >
+        </form>
+
+        <img src='static\pima.jpg' alt="pima">
+        
+    </center>
+
+    </body>
+</html>
